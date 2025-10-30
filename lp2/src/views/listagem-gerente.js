@@ -82,9 +82,15 @@ function ListagemGerente() {
                     <th scope='col'>telefone</th>
                     <th scope='col'>email</th>
                     <th scope='col'>senha</th>
+                    <th scope='col'>senhaRepeticao</th>
                     <th scope='col'>cep</th>
                     <th scope='col'>cidade</th>
+                    <th scope='col'>bairro</th>
                     <th scope='col'>logadouro</th>
+                    <th scope='col'>numero</th>
+                    <th scope='col'>complemento</th>
+                    <th scope='col'>pontoDeReferencia</th>
+                    <th scope='col'>idEstabelecimento</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -96,11 +102,16 @@ function ListagemGerente() {
                       <td>{dado.telefone}</td>
                       <td>{dado.email}</td>
                       <td>{dado.senha}</td>
+                      <td>{dado.senhaRepeticao}</td>
                       <td>{dado.cep}</td>
                       <td>{dado.cidade}</td>
+                      <td>{dado.bairro}</td>
                       <td>{dado.logadouro}</td>
+                      <td>{dado.numero}</td>
+                      <td>{dado.complemento}</td>
+                      <td>{dado.pontoDeReferencia}</td>
+                      <td>{dado.idEstabelecimento}</td>
                       <td>{dado.login}</td>
-                      <td>{dado.admin ? 'Sim' : 'Não'}</td>
                       <td>
                         <Stack spacing={1} padding={0} direction='row'>
                           <IconButton
